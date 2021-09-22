@@ -4,7 +4,7 @@
 int main()
 {
     std::cout << "runing" << std::endl;
-    for(long long int i = 0; i <= 4000000; ++i)
+    for(long long int i = 0; i <= 4000; ++i)
     {
         long long int max = pow(i,0.5) + 1;
 
@@ -20,7 +20,7 @@ int main()
                     
                 if (x == max)
                 {
-                    //std::cout << i << std::endl;
+                    std::cout << i << std::endl;
                 }
                     
             }
